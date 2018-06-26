@@ -1,5 +1,5 @@
 <template lang="pug">
-  footer.footer(style="margin-top: 1em")
+  footer.footer(style="margin-top: 1em; padding-bottom: 3em")
     .content.has-text-centered
       p 
         | Dev.Tube has been developed with 
