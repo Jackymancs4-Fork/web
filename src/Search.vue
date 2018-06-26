@@ -5,12 +5,12 @@
         nav.level
           .level-left
             .level-item
-              a(href="//dev.tube"): img.logo(src="./logo.png")
+              a(href="//dev.tube"): img.logo(src="/logo.png" srcset="/logo.svg")
           .level-item.has-text-centered
               ais-input(placeholder="Search for videos...")
           .level-right
             .level-item.links.is-size-4
-              a(href="https://www.algolia.com" target="_blank"): img(src="/search-by-algolia.png")
+              a(href="https://www.algolia.com" target="_blank"): img(src="/search-by-algolia.png" srcset="/search-by-algolia-light-background.svg")
     section.section
           .container
             .columns
@@ -84,8 +84,14 @@ header {
     }
   }
 
+  .logo {
+    width: 103px;
+    height: 40px;
+  }
+
   .links a {
     color: white;
+    height: 30px;
   }
 
   input {

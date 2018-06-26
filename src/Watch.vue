@@ -5,7 +5,7 @@
       nav.level
         .level-left
           .level-item
-            a(href="//dev.tube"): img.logo(src="./logo.png")
+            a(href="//dev.tube"): img.logo(src="/logo.png" srcset="/logo.svg")
         .level-item.has-text-centered
         .level-right
           .level-item.is-size-4
@@ -92,9 +92,14 @@
 
     .links a {
       color: white;
+      height: 30px;
     }
   }
 
+  .logo {
+    width: 103px;
+    height: 40px;
+  }
 
   .videoWrapper {
     position: relative;
